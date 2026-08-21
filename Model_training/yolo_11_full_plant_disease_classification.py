@@ -5,7 +5,9 @@
 !pip install ultralytics
 
 !mkdir -p ~/.kaggle
-!echo '{"username":"sreenandrajeev","key":"e226ee440bb50ab15a0f1b99b3b8530c"}' > ~/.kaggle/kaggle.json
+
+!echo '{"username":"","key":""}' > ~/.kaggle/kaggle.json #use the username and key to download the dataset
+
 !chmod 600 ~/.kaggle/kaggle.json
 
 !kaggle datasets download -d vipoooool/new-plant-diseases-dataset
